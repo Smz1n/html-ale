@@ -1,3 +1,7 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar {
     height: 50px;
     background-color: #333333;
@@ -8,15 +12,20 @@
 }
 
 .navbar .logo{
-    text-decoration: none;
-    color: #fff;
     font-size: 1.8rem;
     margin-left: 20px;
+
+    font-family: 'Monoton', cursive;
 }
 
 .menu li {
     display: inline;
     margin-right: 10px;
+}
+
+.menu a, .navbar .logo{
+    text-decoration: none;
+    color: #fff;
 }
 
 .menu a {
