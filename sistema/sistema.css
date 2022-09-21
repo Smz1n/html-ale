@@ -1,5 +1,11 @@
-html{
+html, body{
     font-family: 'Poppins', sans-serif;
+    background-color: #dfdfdf;
+    height: 100%;
+}
+
+button .material-icons{
+    vertical-align: bottom;
 }
 
 .navbar {

@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@200;300;400;600&display=swap"
         rel="stylesheet">
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="sistema.css">
     <title>Document</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <nav class="navbar">
         <a href="" class="logo animate__animated animate__slideInUp animate__delay-0.1s">
             <i class="material-icons">rocket_launch</i>
@@ -32,7 +32,7 @@
             </li>
             <li><a href="">Configurações</a>
             </li>
-            <li><a href="">Sair</a>
+            <li><a href="login.html">Sair</a>
             </li>
         </ul>
 
@@ -40,17 +40,17 @@
             <i class="material-icons">menu</i>
         </button>
     </nav>
-    <h1 class="animate__animated animate__slideInUp animate__delay-0.1s">Listar Produtos</h1>
-
-    <hr>
-
-    <table border="1" style="width: 100%;">
-        <thead>
+    <div class="card card-body mt-3">
+        <h1 class="animate__animated animate__slideInUp animate__delay-0.1s">Listar Produtos</h1>
+        <hr>
+    
+    <table class="table table-dark table-hover table-striped">
+        <thead class="table-dark">
             <tr>
                 <th>#ID</th>
                 <th>Nome</th>
                 <th>Preço</th>
-                <th>Ações</th>
+                <th class="text-end">Ações</th>
             </tr>
         </thead>
 
@@ -59,13 +59,49 @@
                 <td>1</td>
                 <td>Teclado</td>
                 <td>R$ 99.90</td>
-                <td>
-                    <button><i class="material-icons">edit</i>Editar</button>
-                    <button><i class="material-icons">delete</i>Excluir</button>
+                <td class="text-end">
+                    <button class="btn btn-outline-warning btn-sm"><i class="material-icons">edit</i>Editar</button>
+                    <button class="btn btn-outline-danger btn-sm"><i class="material-icons">delete</i>Excluir</button>
+            <tr>
+                <td>1</td>
+                <td>Teclado</td>
+                <td>R$ 99.90</td>
+                <td class="text-end">
+                    <button class="btn btn-outline-warning btn-sm"><i class="material-icons">edit</i>Editar</button>
+                    <button class="btn btn-outline-danger btn-sm"><i class="material-icons">delete</i>Excluir</button>
                 </td>
             </tr>
+            <tr>
+                <td>1</td>
+                <td>Teclado</td>
+                <td>R$ 99.90</td>
+                <td class="text-end">
+                    <button class="btn btn-outline-warning btn-sm"><i class="material-icons">edit</i>Editar</button>
+                    <button class="btn btn-outline-danger btn-sm"><i class="material-icons">delete</i>Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Teclado</td>
+                <td>R$ 99.90</td>
+                <td class="text-end">
+                    <button class="btn btn-outline-warning btn-sm"><i class="material-icons">edit</i>Editar</button>
+                    <button class="btn btn-outline-danger btn-sm"><i class="material-icons">delete</i>Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Teclado</td>
+                <td>R$ 99.90</td>
+                <td class="text-end">
+                    <button class="btn btn-outline-warning btn-sm"><i class="material-icons">edit</i>Editar</button>
+                    <button class="btn btn-outline-danger btn-sm"><i class="material-icons">delete</i>Excluir</button>
+                </td>
+            </tr>
+            
         </tbody>
     </table>
+    </div>
 </body>
 
 </html>
